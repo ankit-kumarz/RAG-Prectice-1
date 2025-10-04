@@ -17,7 +17,7 @@ agent = FunctionAgent(
 )
 
 
-async def main():
+async def main(): 
     # Run the agent
     response = await agent.run("What is 1234 * 4567?")
     print(str(response))
