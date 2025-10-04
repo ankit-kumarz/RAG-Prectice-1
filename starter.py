@@ -8,7 +8,7 @@ def multiply(a: float, b: float) -> float:
     """Useful for multiplying two numbers."""
     return a * b
 
-
+ 
 # Create an agent workflow with our calculator tool
 agent = FunctionAgent(
     tools=[multiply],
