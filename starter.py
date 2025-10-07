@@ -9,7 +9,7 @@ def multiply(a: float, b: float) -> float:
     return a * b 
  
  
-# Create an agent workflow with our calculator tool
+# Create an agent workflow with our calculator tool 
 agent = FunctionAgent(
     tools=[multiply],
     llm=OpenAI(model="gpt-4o-mini"),
